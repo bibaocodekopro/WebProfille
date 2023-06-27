@@ -43,3 +43,27 @@ a {
        position: absolute;
        z-index: -1;
 }
+
+
+
+header {
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       background-color: #ffffff;
+       z-index: 100;
+       transition: top 0.3s ease-in-out;
+}
+
+.home,
+.about_section {
+       padding-top: 50px; // Để tránh menu che phủ nội dung
+}
+
+.home.active,
+.about_section.active {
+       .header {
+              top: -50px; // Điều chỉnh giá trị top theo chiều âm để menu ẩn
+       }
+}

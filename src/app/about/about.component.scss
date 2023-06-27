@@ -1,0 +1,72 @@
+section {
+       padding: 10px 0;
+       text-align: center;
+       z-index: 1;
+}
+
+h2 {
+       font-size: 2.5rem;
+       padding-bottom: 5px;
+}
+
+
+
+.about_container {
+       padding: 10px;
+       display: flex;
+
+       img {
+              width: 40%;
+              height: 40%;
+              border-radius: 5%;
+       }
+
+       .about_info {
+              padding: 10px;
+
+              p {
+                     text-align: left;
+                     padding: 17px 0;
+              }
+
+              span {
+                     font-size: 1.5rem;
+                     padding-bottom: 5px;
+              }
+
+              div {
+                     display: flex;
+
+                     span {
+                            font-size: 19px;
+                            font-family: 'Times New Roman', Times, serif;
+                            font-weight: 500;
+                            color: #F36F25;
+                     }
+
+                     button {
+                            height: 30px;
+                            width: 190px;
+                            border-radius: 5%;
+                            border: none;
+
+                            a {
+                                   font-weight: 600;
+                                   color: rgb(37, 37, 37);
+                            }
+                     }
+
+                     button:hover {
+                            background-color: #F36F25;
+
+                            a {
+                                   color: white;
+                            }
+
+
+                     }
+              }
+       }
+
+
+}

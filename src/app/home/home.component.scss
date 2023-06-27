@@ -1,3 +1,8 @@
+section {
+       border-bottom: 1px solid rgb(248, 248, 248);
+
+}
+
 .image_home_blob {
        width: 400px;
        height: 400px;
@@ -53,6 +58,11 @@
 }
 
 .home_scroll {
+       padding: 10px;
+       display: flex;
+       float: right;
+       z-index: 1000;
+
        a {
               font-family: Arial, Helvetica, sans-serif;
               color: gray;

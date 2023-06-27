@@ -18,6 +18,10 @@ header ul:first-child {
 .content-left li {
        padding: 0 25px;
 
+       .img-angular {
+              cursor: pointer;
+       }
+
        a {
               color: rgb(0, 0, 0);
               transition: .3s;
